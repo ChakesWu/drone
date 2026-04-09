@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+aruco_detector_py/__init__.py
+aruco_detector_py/aruco_detector_node.py
+aruco_detector_py.egg-info/PKG-INFO
+aruco_detector_py.egg-info/SOURCES.txt
+aruco_detector_py.egg-info/dependency_links.txt
+aruco_detector_py.egg-info/entry_points.txt
+aruco_detector_py.egg-info/requires.txt
+aruco_detector_py.egg-info/top_level.txt
+aruco_detector_py.egg-info/zip-safe
+resource/aruco_detector_py

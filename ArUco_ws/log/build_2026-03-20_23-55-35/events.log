@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000886] (aruco_detector_py) JobQueued: {'identifier': 'aruco_detector_py', 'dependencies': OrderedDict()}
+[0.001485] (aruco_detector_py) JobStarted: {'identifier': 'aruco_detector_py'}
+[0.099639] (-) TimerEvent: {}
+[0.201215] (-) TimerEvent: {}
+[0.301887] (-) TimerEvent: {}
+[0.402400] (-) TimerEvent: {}
+[0.503018] (-) TimerEvent: {}
+[0.608090] (-) TimerEvent: {}
+[0.710680] (-) TimerEvent: {}
+[0.820726] (-) TimerEvent: {}
+[0.923001] (-) TimerEvent: {}
+[1.027964] (-) TimerEvent: {}
+[1.129548] (-) TimerEvent: {}
+[1.236535] (-) TimerEvent: {}
+[1.339683] (-) TimerEvent: {}
+[1.440180] (-) TimerEvent: {}
+[1.540661] (-) TimerEvent: {}
+[1.643016] (-) TimerEvent: {}
+[1.743640] (-) TimerEvent: {}
+[1.843979] (-) TimerEvent: {}
+[1.944471] (-) TimerEvent: {}
+[2.045100] (-) TimerEvent: {}
+[2.145457] (-) TimerEvent: {}
+[2.246840] (-) TimerEvent: {}
+[2.347213] (-) TimerEvent: {}
+[2.448242] (-) TimerEvent: {}
+[2.549512] (-) TimerEvent: {}
+[2.645777] (aruco_detector_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/drone/ArUco_ws/build/aruco_detector_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/drone/ArUco_ws/build/aruco_detector_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/ros2_ws/install/orbbec_camera/lib:/home/drone/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/drone', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/drone/ArUco_ws', 'TERM_PROGRAM_VERSION': '1.111.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1649', 'SYSTEMD_EXEC_PID': '1980', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3222', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/drone/ArUco_ws/install:/home/drone/cartographer_ws/install:/home/drone/ros2_ws/install:/home/drone/ydlidar_ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'drone', 'JOURNAL_STREAM': '8:16381', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'drone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/drone/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/drone/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/drone:@/tmp/.ICE-unix/1947,unix/drone:/tmp/.ICE-unix/1947', 'INVOCATION_ID': '8a1654b208af44a19e047562920c1b14', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.REJ8L3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1910657118.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/drone/ArUco_ws/install/aruco_detector_py:/home/drone/ArUco_ws/install/aruco_msgs_py:/home/drone/cartographer_ws/install/tmini_cartographer_py:/home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/drone/ros2_ws/install/orbbec_description:/home/drone/ros2_ws/install/orbbec_camera:/home/drone/ros2_ws/install/orbbec_camera_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/drone/ArUco_ws/build/aruco_detector_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/ArUco_ws/build/aruco_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages:/home/drone/ArUco_ws/build/aruco_detector_py:/home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages:/home/drone/ArUco_ws/build/aruco_msgs_py:/home/drone/ArUco_ws/install/aruco_msgs_py/lib/python3.12/site-packages:/home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages:/home/drone/ros2_ws/install/orbbec_camera_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/drone/ros2_ws/install/orbbec_description:/home/drone/ros2_ws/install/orbbec_camera:/home/drone/ros2_ws/install/orbbec_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.651160] (-) TimerEvent: {}
+[2.751581] (-) TimerEvent: {}
+[2.851948] (-) TimerEvent: {}
+[2.952279] (-) TimerEvent: {}
+[3.052589] (-) TimerEvent: {}
+[3.152916] (-) TimerEvent: {}
+[3.253294] (-) TimerEvent: {}
+[3.353649] (-) TimerEvent: {}
+[3.454000] (-) TimerEvent: {}
+[3.454668] (aruco_detector_py) StdoutLine: {'line': b'running develop\n'}
+[3.554107] (-) TimerEvent: {}
+[3.654442] (-) TimerEvent: {}
+[3.754815] (-) TimerEvent: {}
+[3.855255] (-) TimerEvent: {}
+[3.955815] (-) TimerEvent: {}
+[4.022776] (aruco_detector_py) StdoutLine: {'line': b'running egg_info\n'}
+[4.024898] (aruco_detector_py) StdoutLine: {'line': b'creating aruco_detector_py.egg-info\n'}
+[4.055957] (-) TimerEvent: {}
+[4.079882] (aruco_detector_py) StdoutLine: {'line': b'writing aruco_detector_py.egg-info/PKG-INFO\n'}
+[4.082015] (aruco_detector_py) StdoutLine: {'line': b'writing dependency_links to aruco_detector_py.egg-info/dependency_links.txt\n'}
+[4.082531] (aruco_detector_py) StdoutLine: {'line': b'writing entry points to aruco_detector_py.egg-info/entry_points.txt\n'}
+[4.082741] (aruco_detector_py) StdoutLine: {'line': b'writing requirements to aruco_detector_py.egg-info/requires.txt\n'}
+[4.082861] (aruco_detector_py) StdoutLine: {'line': b'writing top-level names to aruco_detector_py.egg-info/top_level.txt\n'}
+[4.083012] (aruco_detector_py) StdoutLine: {'line': b"writing manifest file 'aruco_detector_py.egg-info/SOURCES.txt'\n"}
+[4.156046] (-) TimerEvent: {}
+[4.167976] (aruco_detector_py) StdoutLine: {'line': b"reading manifest file 'aruco_detector_py.egg-info/SOURCES.txt'\n"}
+[4.169181] (aruco_detector_py) StdoutLine: {'line': b"writing manifest file 'aruco_detector_py.egg-info/SOURCES.txt'\n"}
+[4.222596] (aruco_detector_py) StdoutLine: {'line': b'running build_ext\n'}
+[4.224237] (aruco_detector_py) StdoutLine: {'line': b'Creating /home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages/aruco-detector-py.egg-link (link to .)\n'}
+[4.224698] (aruco_detector_py) StdoutLine: {'line': b'Installing aruco_detector_node script to /home/drone/ArUco_ws/install/aruco_detector_py/lib/aruco_detector_py\n'}
+[4.225641] (aruco_detector_py) StdoutLine: {'line': b'\n'}
+[4.225811] (aruco_detector_py) StdoutLine: {'line': b'Installed /home/drone/ArUco_ws/build/aruco_detector_py\n'}
+[4.225918] (aruco_detector_py) StdoutLine: {'line': b'running symlink_data\n'}
+[4.226709] (aruco_detector_py) StdoutLine: {'line': b'creating /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index\n'}
+[4.226917] (aruco_detector_py) StdoutLine: {'line': b'creating /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index/resource_index\n'}
+[4.229684] (aruco_detector_py) StdoutLine: {'line': b'creating /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index/resource_index/packages\n'}
+[4.230524] (aruco_detector_py) StdoutLine: {'line': b'symbolically linking /home/drone/ArUco_ws/build/aruco_detector_py/resource/aruco_detector_py -> /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index/resource_index/packages\n'}
+[4.232651] (aruco_detector_py) StdoutLine: {'line': b'symbolically linking /home/drone/ArUco_ws/build/aruco_detector_py/package.xml -> /home/drone/ArUco_ws/install/aruco_detector_py/share/aruco_detector_py\n'}
+[4.256177] (-) TimerEvent: {}
+[4.356578] (-) TimerEvent: {}
+[4.366491] (aruco_detector_py) CommandEnded: {'returncode': 0}
+[4.389048] (aruco_detector_py) JobEnded: {'identifier': 'aruco_detector_py', 'rc': 0}
+[4.391357] (-) EventReactorShutdown: {}

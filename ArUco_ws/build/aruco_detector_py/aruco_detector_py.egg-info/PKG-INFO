@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aruco-detector-py
+Version: 0.0.0
+Summary: 极简版ArUco识别节点（无自定义消息）
+Maintainer: drone
+Maintainer-email: drone@droneos.local
+License: Apache-2.0

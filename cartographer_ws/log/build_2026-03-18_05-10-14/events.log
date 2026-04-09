@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (tmini_cartographer_py) JobQueued: {'identifier': 'tmini_cartographer_py', 'dependencies': OrderedDict()}
+[0.000740] (tmini_cartographer_py) JobStarted: {'identifier': 'tmini_cartographer_py'}
+[0.099685] (-) TimerEvent: {}
+[0.200164] (-) TimerEvent: {}
+[0.303167] (-) TimerEvent: {}
+[0.403690] (-) TimerEvent: {}
+[0.504292] (-) TimerEvent: {}
+[0.605045] (-) TimerEvent: {}
+[0.708728] (-) TimerEvent: {}
+[0.810403] (-) TimerEvent: {}
+[0.910747] (-) TimerEvent: {}
+[1.011069] (-) TimerEvent: {}
+[1.111385] (-) TimerEvent: {}
+[1.213411] (-) TimerEvent: {}
+[1.314078] (-) TimerEvent: {}
+[1.417313] (-) TimerEvent: {}
+[1.518412] (-) TimerEvent: {}
+[1.618807] (-) TimerEvent: {}
+[1.719159] (-) TimerEvent: {}
+[1.819499] (-) TimerEvent: {}
+[1.919887] (-) TimerEvent: {}
+[2.020395] (-) TimerEvent: {}
+[2.120729] (-) TimerEvent: {}
+[2.221062] (-) TimerEvent: {}
+[2.321484] (-) TimerEvent: {}
+[2.421994] (-) TimerEvent: {}
+[2.522438] (-) TimerEvent: {}
+[2.622894] (-) TimerEvent: {}
+[2.663454] (tmini_cartographer_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tmini_cartographer_py', 'build', '--build-base', '/home/drone/cartographer_ws/build/tmini_cartographer_py/build', 'install', '--record', '/home/drone/cartographer_ws/build/tmini_cartographer_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/drone/cartographer_ws/src/tmini_cartographer_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'drone', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/drone/ros2_ws/install/orbbec_camera/lib:/home/drone/ros2_ws/install/orbbec_camera_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/drone', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/drone', 'TERM_PROGRAM_VERSION': '1.111.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1696', 'SYSTEMD_EXEC_PID': '2026', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3339', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/drone/ros2_ws/install:/home/drone/ydlidar_ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'drone', 'JOURNAL_STREAM': '8:16924', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'drone', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/drone/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/drone:@/tmp/.ICE-unix/1975,unix/drone:/tmp/.ICE-unix/1975', 'INVOCATION_ID': 'aed477267f5544d395f9706838491d16', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HA6YL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1910657118.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/drone/ros2_ws/install/orbbec_description:/home/drone/ros2_ws/install/orbbec_camera:/home/drone/ros2_ws/install/orbbec_camera_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/drone/cartographer_ws/build/tmini_cartographer_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/drone/cartographer_ws/build/tmini_cartographer_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages:/home/drone/ros2_ws/install/orbbec_camera_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/drone/ros2_ws/install/orbbec_description:/home/drone/ros2_ws/install/orbbec_camera:/home/drone/ros2_ws/install/orbbec_camera_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.723019] (-) TimerEvent: {}
+[2.823366] (-) TimerEvent: {}
+[2.923719] (-) TimerEvent: {}
+[3.024206] (-) TimerEvent: {}
+[3.124567] (-) TimerEvent: {}
+[3.198151] (tmini_cartographer_py) StdoutLine: {'line': b'running egg_info\n'}
+[3.224702] (-) TimerEvent: {}
+[3.239035] (tmini_cartographer_py) StdoutLine: {'line': b'writing ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/PKG-INFO\n'}
+[3.239534] (tmini_cartographer_py) StdoutLine: {'line': b'writing dependency_links to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/dependency_links.txt\n'}
+[3.241207] (tmini_cartographer_py) StdoutLine: {'line': b'writing entry points to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/entry_points.txt\n'}
+[3.242237] (tmini_cartographer_py) StdoutLine: {'line': b'writing requirements to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/requires.txt\n'}
+[3.243338] (tmini_cartographer_py) StdoutLine: {'line': b'writing top-level names to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/top_level.txt\n'}
+[3.323625] (tmini_cartographer_py) StdoutLine: {'line': b"reading manifest file '../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/SOURCES.txt'\n"}
+[3.324771] (-) TimerEvent: {}
+[3.325481] (tmini_cartographer_py) StdoutLine: {'line': b"writing manifest file '../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/SOURCES.txt'\n"}
+[3.326285] (tmini_cartographer_py) StdoutLine: {'line': b'running build\n'}
+[3.326412] (tmini_cartographer_py) StdoutLine: {'line': b'running build_py\n'}
+[3.326501] (tmini_cartographer_py) StdoutLine: {'line': b'running install\n'}
+[3.338220] (tmini_cartographer_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.384890] (tmini_cartographer_py) StdoutLine: {'line': b'running install_data\n'}
+[3.385391] (tmini_cartographer_py) StdoutLine: {'line': b'copying launch/tmini_cartographer.launch.py -> /home/drone/cartographer_ws/install/tmini_cartographer_py/share/tmini_cartographer_py/launch\n'}
+[3.385592] (tmini_cartographer_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.419694] (tmini_cartographer_py) StdoutLine: {'line': b"removing '/home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.420265] (tmini_cartographer_py) StdoutLine: {'line': b'Copying ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info to /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py-0.0.0-py3.12.egg-info\n'}
+[3.422305] (tmini_cartographer_py) StdoutLine: {'line': b'running install_scripts\n'}
+[3.424854] (-) TimerEvent: {}
+[3.525622] (-) TimerEvent: {}
+[3.625959] (-) TimerEvent: {}
+[3.710260] (tmini_cartographer_py) StdoutLine: {'line': b'Installing tmini_cartographer_node script to /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/tmini_cartographer_py\n'}
+[3.712153] (tmini_cartographer_py) StdoutLine: {'line': b"writing list of installed files to '/home/drone/cartographer_ws/build/tmini_cartographer_py/install.log'\n"}
+[3.726161] (-) TimerEvent: {}
+[3.826823] (-) TimerEvent: {}
+[3.877486] (tmini_cartographer_py) CommandEnded: {'returncode': 0}
+[3.924416] (tmini_cartographer_py) JobEnded: {'identifier': 'tmini_cartographer_py', 'rc': 0}
+[3.925551] (-) EventReactorShutdown: {}

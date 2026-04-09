@@ -1,0 +1,127 @@
+2025/12/16 V1
+	Ubuntu 24.04桌面版
+	user:pi
+	pw:raspberry
+	
+	安裝輸入法(英文、倉頡、拼音)
+
+	無線網絡
+	熱點:UAVPI5
+	熱點密碼:abcd1234
+	無線IP: 10.42.0.1	
+
+	ssh
+	python
+	python-opencv
+	
+	有線固網設定好
+	IP: 172.22.11.2
+	但需要手動設定IP，DHCP無法使用
+			
+2025/12/24 V2
+	ROS2 Jazzy (主機端)包含示例、rviz2等可视化工具
+	
+	安装 ROS2 Jazzy 驱动
+		echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+		source ~/.bashrc
+		
+	ROS2指令
+		source /opt/ros/jazzy/setup.bash
+		ros2 run demo_nodes_cpp talker
+		
+		source /opt/ros/jazzy/setup.bash
+		ros2 run demo_nodes_cpp listener
+		
+		source /opt/ros/jazzy/setup.bash
+		rviz2
+	Python
+		3.12.3
+	Opencv
+		4.6.0
+		
+2025/12/24 V2a
+	激光雷逹T-mini Pro 12m(接線usb2.0 下層)ls /dev/ttyUSB*
+	安装 YDLidar-SDK 及依赖
+		测试 YDLidar-SDK
+			cd ~/YDLidar-SDK/build
+			./tri_test  # 按提示选择：端口选1（/dev/ttyUSB0）、波特率选4（230400）、选yes
+	安装 YDLidar ROS2 驱动
+		echo "source ~/ydlidar_ros2_ws/install/setup.bash" >> ~/.bashrc
+		source ~/.bashrc
+		
+		LiDAR 节点配置文件
+			# 创建并编辑参数文件 Tmini.yaml
+				cd ~/ydlidar_ros2_ws/src/ydlidar_ros2_driver/params
+				gedit Tmini.yaml  # 打开编辑器后，粘贴文中指定的参数内容并保存退出
+
+			# 创建并编辑启动文件 Tmini_launch.py
+				cd ~/ydlidar_ros2_ws/src/ydlidar_ros2_driver/launch
+				gedit Tmini_launch.py  # 打开编辑器后，粘贴文中指定的启动文件内容并保存退出
+		
+		运行启动文件
+			ros2 launch ydlidar_ros2_driver Tmini_launch.py
+		
+		运行 Rviz2 查看雷达数据
+			rviz2 -d ~/ydlidar_ros2_ws/src/ydlidar_ros2_driver/config/ydlidar.rviz
+		
+		检查 ROS2 话题
+			# 查看话题列表
+			ros2 topic list
+
+			# 查看雷达数据话题（二选一，根据实际情况调整）
+			ros2 topic echo /scan
+			# 或
+			ros2 topic echo /laser_scan
+
+2025/12/24 V2b
+	Mavros安裝
+		安装 Mavros 驱动
+			echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+			source ~/.bashrc
+		
+		检查 Mavros 包是否存在
+			ros2 pkg list | grep mavros
+			输出含mavros、mavros_extras等包名则安装成功
+			
+		查看 Mavros 状态
+			ros2 topic echo /mavros/state
+
+		# 查看MAVROS相关包
+			ros2 pkg list | grep mavros
+			只要输出mavros、mavros_msgs、mavros_extras，即说明安装成功
+			
+		使用 MAVROS（启动节点示例）
+			1. 串口权限配置（解决权限不足问题）
+				# 添加当前用户到dialout组, 重启终端或重新登录生效
+				sudo usermod -aG dialout $USER
+
+			2. 启动 MAVROS 节点 根据飞控类型选择对应命令：
+				# 1. PX4飞控（USB串口：/dev/ttyUSB0，波特率57600）
+				ros2 launch mavros px4.launch.py fcu_url:=/dev/ttyUSB0:57600
+
+				# 2. ArduPilot飞控（树莓派硬件串口：/dev/ttyAMA0，波特率115200）
+				ros2 launch mavros apm.launch.py fcu_url:=/dev/ttyAMA0:115200
+
+				# 3. 仿真环境（SITL，无需硬件串口）
+				ros2 launch mavros px4.launch.py fcu_url:=udp://:14540@127.0.0.1:14557
+			成功启动标志：终端无报错，显示mavros node started等信息。
+			
+2025/12/25 V2c
+	TigerVNC安裝
+		解析度:1280*720(16:9)
+		IP:5903
+		PW:raspberry
+		
+		重啟VNC服務
+			sudo systemctl daemon-reload
+			sudo systemctl enable vncserver@:3.service
+			sudo systemctl start vncserver@:3.service
+		
+		检查服务状态
+			sudo systemctl status vncserver@:3.service。
+	
+	虛擬顯示套件(xserver-xorg-video-dummy)安裝
+		創建xorg.conf在下列路徑中
+			sudo nano /etc/X11/xorg.conf
+		還原連接實體螢幕，可將xorg.conf刪除掉
+		

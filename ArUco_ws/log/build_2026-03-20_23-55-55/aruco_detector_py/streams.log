@@ -1,0 +1,17 @@
+[2.206s] Invoking command in '/home/drone/ArUco_ws/build/aruco_detector_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drone/ArUco_ws/build/aruco_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/drone/ArUco_ws/build/aruco_detector_py/build --no-deps symlink_data
+[2.911s] running develop
+[3.435s] running egg_info
+[3.492s] writing aruco_detector_py.egg-info/PKG-INFO
+[3.494s] writing dependency_links to aruco_detector_py.egg-info/dependency_links.txt
+[3.496s] writing entry points to aruco_detector_py.egg-info/entry_points.txt
+[3.497s] writing requirements to aruco_detector_py.egg-info/requires.txt
+[3.501s] writing top-level names to aruco_detector_py.egg-info/top_level.txt
+[3.605s] reading manifest file 'aruco_detector_py.egg-info/SOURCES.txt'
+[3.608s] writing manifest file 'aruco_detector_py.egg-info/SOURCES.txt'
+[3.650s] running build_ext
+[3.650s] Creating /home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages/aruco-detector-py.egg-link (link to .)
+[3.652s] Installing aruco_detector_node script to /home/drone/ArUco_ws/install/aruco_detector_py/lib/aruco_detector_py
+[3.653s] 
+[3.653s] Installed /home/drone/ArUco_ws/build/aruco_detector_py
+[3.653s] running symlink_data
+[3.809s] Invoked command in '/home/drone/ArUco_ws/build/aruco_detector_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drone/ArUco_ws/build/aruco_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/drone/ArUco_ws/build/aruco_detector_py/build --no-deps symlink_data

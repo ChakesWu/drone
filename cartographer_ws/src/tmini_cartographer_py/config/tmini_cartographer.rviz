@@ -1,0 +1,35 @@
+<launch>
+  <configuration>
+    <VisualizationManager>
+      <GlobalOptions>
+        <Frame>map</Frame>  <!-- 全局坐标系设为 map（Cartographer 输出的地图坐标系） -->
+        <FixedFrame>base_link</FixedFrame>
+      </GlobalOptions>
+      <!-- 1. 加载 /map 栅格地图（自动显示） -->
+      <Display type="rviz_default_plugins/Map">
+        <name>Map</name>
+        <topic>/map</topic>  <!-- 明确订阅 /map 话题 -->
+        <color>255;255;255</color>
+        <background_color>0;0;0</background_color>
+        <enabled>true</enabled>  <!-- 启动即开启显示 -->
+      </Display>
+      <!-- 2. 加载 /scan 激光点云（自动显示） -->
+      <Display type="rviz_default_plugins/LaserScan">
+        <name>LaserScan</name>
+        <topic>/scan</topic>  <!-- 明确订阅 /scan 话题 -->
+        <frame>laser_frame</frame>  <!-- 匹配雷达 TF 坐标系 -->
+        <size>0.05</size>
+        <color>255;0;0</color>
+        <enabled>true</enabled>  <!-- 启动即开启显示 -->
+      </Display>
+      <!-- 3. 显示 TF 坐标系（方便调试） -->
+      <Display type="rviz_default_plugins/TF">
+        <name>TF</name>
+        <enabled>true</enabled>
+        <showNames>true</showNames>
+        <showAxes>true</showAxes>
+        <showArrows>true</showArrows>
+      </Display>
+    </VisualizationManager>
+  </configuration>
+</launch>

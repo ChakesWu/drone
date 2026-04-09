@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2c7a83d9e4993d56c956.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "orbbec_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "frame_latency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frame_latency-Release-72e3fd2346b14e684b26.json",
+					"name" : "frame_latency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "frame_latency_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frame_latency_node-Release-a40d6281ae30dffd1957.json",
+					"name" : "frame_latency_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_camera_profile_mode_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_camera_profile_mode_node-Release-c18e74da68ef55c6f175.json",
+					"name" : "list_camera_profile_mode_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_depth_work_mode_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_depth_work_mode_node-Release-b50bc8bd6debda83b599.json",
+					"name" : "list_depth_work_mode_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_devices_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_devices_node-Release-ecad5845d36b8fbae53c.json",
+					"name" : "list_devices_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbbec_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbbec_camera-Release-22154d5106e976bc465c.json",
+					"name" : "orbbec_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbbec_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbbec_camera_node-Release-8a20b767302a21565928.json",
+					"name" : "orbbec_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbbec_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbbec_camera_uninstall-Release-47232259b6e397516f0b.json",
+					"name" : "orbbec_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_statistics_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_statistics_node-Release-97359822f14e6c7ea6d1.json",
+					"name" : "topic_statistics_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f1a060f547e0fccdc12d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/drone/ros2_ws/build/orbbec_camera",
+		"source" : "/home/drone/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

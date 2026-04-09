@@ -1,0 +1,24 @@
+[2.649s] Invoking command in '/home/drone/ArUco_ws/build/aruco_detector_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drone/ArUco_ws/build/aruco_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/drone/ArUco_ws/build/aruco_detector_py/build --no-deps symlink_data
+[3.453s] running develop
+[4.022s] running egg_info
+[4.024s] creating aruco_detector_py.egg-info
+[4.079s] writing aruco_detector_py.egg-info/PKG-INFO
+[4.081s] writing dependency_links to aruco_detector_py.egg-info/dependency_links.txt
+[4.081s] writing entry points to aruco_detector_py.egg-info/entry_points.txt
+[4.081s] writing requirements to aruco_detector_py.egg-info/requires.txt
+[4.081s] writing top-level names to aruco_detector_py.egg-info/top_level.txt
+[4.082s] writing manifest file 'aruco_detector_py.egg-info/SOURCES.txt'
+[4.167s] reading manifest file 'aruco_detector_py.egg-info/SOURCES.txt'
+[4.168s] writing manifest file 'aruco_detector_py.egg-info/SOURCES.txt'
+[4.221s] running build_ext
+[4.223s] Creating /home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages/aruco-detector-py.egg-link (link to .)
+[4.223s] Installing aruco_detector_node script to /home/drone/ArUco_ws/install/aruco_detector_py/lib/aruco_detector_py
+[4.224s] 
+[4.224s] Installed /home/drone/ArUco_ws/build/aruco_detector_py
+[4.224s] running symlink_data
+[4.225s] creating /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index
+[4.228s] creating /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index/resource_index
+[4.229s] creating /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index/resource_index/packages
+[4.229s] symbolically linking /home/drone/ArUco_ws/build/aruco_detector_py/resource/aruco_detector_py -> /home/drone/ArUco_ws/install/aruco_detector_py/share/ament_index/resource_index/packages
+[4.232s] symbolically linking /home/drone/ArUco_ws/build/aruco_detector_py/package.xml -> /home/drone/ArUco_ws/install/aruco_detector_py/share/aruco_detector_py
+[4.365s] Invoked command in '/home/drone/ArUco_ws/build/aruco_detector_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drone/ArUco_ws/build/aruco_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/ArUco_ws/install/aruco_detector_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/drone/ArUco_ws/build/aruco_detector_py/build --no-deps symlink_data

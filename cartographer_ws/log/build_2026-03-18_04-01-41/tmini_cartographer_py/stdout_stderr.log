@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info
+writing ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/dependency_links.txt
+writing entry points to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/entry_points.txt
+writing requirements to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/requires.txt
+writing top-level names to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/top_level.txt
+writing manifest file '../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drone/cartographer_ws/build/tmini_cartographer_py/build
+creating /home/drone/cartographer_ws/build/tmini_cartographer_py/build/lib
+creating /home/drone/cartographer_ws/build/tmini_cartographer_py/build/lib/tmini_cartographer_py
+copying tmini_cartographer_py/tmini_cartographer_node.py -> /home/drone/cartographer_ws/build/tmini_cartographer_py/build/lib/tmini_cartographer_py
+copying tmini_cartographer_py/__init__.py -> /home/drone/cartographer_ws/build/tmini_cartographer_py/build/lib/tmini_cartographer_py
+running install
+running install_lib
+creating /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py
+copying /home/drone/cartographer_ws/build/tmini_cartographer_py/build/lib/tmini_cartographer_py/tmini_cartographer_node.py -> /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py
+copying /home/drone/cartographer_ws/build/tmini_cartographer_py/build/lib/tmini_cartographer_py/__init__.py -> /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py
+byte-compiling /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py/tmini_cartographer_node.py to tmini_cartographer_node.cpython-312.pyc
+byte-compiling /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/drone/cartographer_ws/install/tmini_cartographer_py/share/ament_index
+creating /home/drone/cartographer_ws/install/tmini_cartographer_py/share/ament_index/resource_index
+creating /home/drone/cartographer_ws/install/tmini_cartographer_py/share/ament_index/resource_index/packages
+copying resource/tmini_cartographer_py -> /home/drone/cartographer_ws/install/tmini_cartographer_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/drone/cartographer_ws/install/tmini_cartographer_py/share/tmini_cartographer_py
+creating /home/drone/cartographer_ws/install/tmini_cartographer_py/share/tmini_cartographer_py/launch
+copying launch/tmini_cartographer.launch.py -> /home/drone/cartographer_ws/install/tmini_cartographer_py/share/tmini_cartographer_py/launch
+running install_egg_info
+Copying ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info to /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing tmini_cartographer_node script to /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/tmini_cartographer_py
+writing list of installed files to '/home/drone/cartographer_ws/build/tmini_cartographer_py/install.log'

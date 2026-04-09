@@ -1,0 +1,80 @@
+[0.040s] Invoking command in '/home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[0.283s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.714s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.753s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.827s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.849s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.047s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.051s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.110s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.243s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.355s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.401s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.485s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.736s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.744s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.745s] -- Configured cppcheck include dirs: /home/drone/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src
+[1.745s] -- Configured cppcheck exclude dirs and/or files: 
+[1.751s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.751s] -- Configured cpplint exclude dirs and/or files: 
+[1.754s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.754s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.757s] -- Added test 'lint_cmake' to check CMake code style
+[1.759s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.765s] -- Added test 'uncrustify' to check C / C++ code style
+[1.765s] -- Configured uncrustify additional arguments: 
+[1.766s] -- Added test 'xmllint' to check XML markup files
+[1.768s] -- Configuring done (1.5s)
+[1.829s] -- Generating done (0.0s)
+[1.850s] -- Build files have been written to: /home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[1.998s] [ 50%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[1.999s] [ 50%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[3.896s] [ 75%] Built target ydlidar_ros2_driver_node
+[3.921s] [100%] Built target ydlidar_ros2_driver_client
+[3.944s] Invoked command in '/home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[3.970s] Invoking command in '/home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[3.991s] -- Install configuration: ""
+[3.992s] -- Execute custom install script
+[3.993s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[4.016s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[4.038s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/Tmini_launch.py
+[4.058s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[4.085s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[4.110s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[4.136s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[4.156s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[4.181s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml
+[4.206s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[4.225s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[4.245s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml
+[4.270s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[4.297s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[4.319s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml
+[4.339s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml
+[4.361s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini_12m.yaml
+[4.388s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[4.411s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml
+[4.432s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[4.452s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[4.478s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml
+[4.504s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[4.525s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[4.545s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[4.568s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[4.594s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[4.617s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[4.637s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[4.658s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[4.686s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[4.712s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[4.739s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[4.761s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[4.789s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[4.812s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[4.833s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[4.853s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[4.879s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[4.904s] -- Symlinking: /home/drone/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[4.927s] Invoked command in '/home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drone/ydlidar_ros2_ws/build/ydlidar_ros2_driver

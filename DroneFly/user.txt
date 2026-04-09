@@ -1,0 +1,35 @@
+ros2 launch mavros apm.launch fcu_url:="serial:///dev/ttyACM0:57600"
+
+ros2 topic echo /mavros/state
+
+ros2 topic echo /mavros/local_position/pose
+
+ros2 service call /mavros/cmd/arming mavros_msgs/srv/CommandBool "{value: true}"
+
+ros2 service call /mavros/set_mode mavros_msgs/srv/SetMode "{custom_mode: 'GUIDED'}"
+
+ros2 service call /mavros/cmd/takeoff mavros_msgs/srv/CommandTOL "{altitude: 0.5, min_pitch: 0.0}"
+
+local_position/pose
+ros2 service call /mavros/set_stream_rate mavros_msgs/srv/StreamRate "{stream_id: 6, message_rate: 10, on_off: True}"
+
+姿态/mavros/imu/data
+ros2 service call /mavros/set_stream_rate mavros_msgs/srv/StreamRate "{stream_id: 10, message_rate: 10, on_off: True}"
+
+
+mavproxy.py --master=/dev/ttyACM0 --baudrate 115200 --out udp:10.12.34.75:14550
+
+
+
+
+1.先编译接口文件
+colcon build --symlink-install --packages-select robot_interfaces
+
+2.
+. install/setup.bash
+
+3.编译其他工具包
+colcon build --symlink-install --packages-select control_layer application_layer vision_cpp vision_pkg ydlidar_ros2_driver
+
+删除并且编译application_layer工具包
+rm -rf build/application_layer/ install/application_layer/ && colcon build --symlink-install --packages-select application_layer

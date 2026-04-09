@@ -1,0 +1,2 @@
+[console_scripts]
+tmini_cartographer_node = tmini_cartographer_py.tmini_cartographer_node:main

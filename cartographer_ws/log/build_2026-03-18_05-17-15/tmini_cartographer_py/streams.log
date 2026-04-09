@@ -1,0 +1,22 @@
+[2.070s] Invoking command in '/home/drone/cartographer_ws/src/tmini_cartographer_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drone/cartographer_ws/build/tmini_cartographer_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tmini_cartographer_py build --build-base /home/drone/cartographer_ws/build/tmini_cartographer_py/build install --record /home/drone/cartographer_ws/build/tmini_cartographer_py/install.log --single-version-externally-managed install_data
+[2.578s] running egg_info
+[2.611s] writing ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/PKG-INFO
+[2.611s] writing dependency_links to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/dependency_links.txt
+[2.613s] writing entry points to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/entry_points.txt
+[2.615s] writing requirements to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/requires.txt
+[2.619s] writing top-level names to ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/top_level.txt
+[2.700s] reading manifest file '../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/SOURCES.txt'
+[2.701s] writing manifest file '../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info/SOURCES.txt'
+[2.702s] running build
+[2.702s] running build_py
+[2.702s] running install
+[2.712s] running install_lib
+[2.748s] running install_data
+[2.750s] copying launch/tmini_cartographer.launch.py -> /home/drone/cartographer_ws/install/tmini_cartographer_py/share/tmini_cartographer_py/launch
+[2.750s] running install_egg_info
+[2.796s] removing '/home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py-0.0.0-py3.12.egg-info' (and everything under it)
+[2.797s] Copying ../../build/tmini_cartographer_py/tmini_cartographer_py.egg-info to /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages/tmini_cartographer_py-0.0.0-py3.12.egg-info
+[2.800s] running install_scripts
+[3.141s] Installing tmini_cartographer_node script to /home/drone/cartographer_ws/install/tmini_cartographer_py/lib/tmini_cartographer_py
+[3.142s] writing list of installed files to '/home/drone/cartographer_ws/build/tmini_cartographer_py/install.log'
+[3.306s] Invoked command in '/home/drone/cartographer_ws/src/tmini_cartographer_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drone/cartographer_ws/build/tmini_cartographer_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/cartographer_ws/install/tmini_cartographer_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tmini_cartographer_py build --build-base /home/drone/cartographer_ws/build/tmini_cartographer_py/build install --record /home/drone/cartographer_ws/build/tmini_cartographer_py/install.log --single-version-externally-managed install_data
